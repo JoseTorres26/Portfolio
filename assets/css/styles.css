@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    padding: 0px 10px 0px 0px;
   }
 
 :root {
@@ -21,7 +22,9 @@
 
 header{
     display:flex;
-justify-content: space-between;}
+justify-content: space-between;
+background-color: var(--primary);
+}
 
 h1{
 padding: 0px 10px 0px 50px;
@@ -47,4 +50,12 @@ nav a {
   nav a:hover {
     background-size: 100% 100%;
     color: var(--primary);
+  }
+
+  .hero{
+    height: 250px;
+    width: 100%;
+    margin: auto;
+    background-image: url("../images/02-hero-bg.jpg");
+    background-size: cover;
   }
