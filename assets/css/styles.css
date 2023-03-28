@@ -29,12 +29,17 @@ background-color: var(--primary);
 h1{
 padding: 0px 10px 0px 50px;
     background-color: var(--secondary);
+    margin-bottom: 10px;
 }
 
 ul{
 list-style-type: none;
+margin-bottom: 16px;
 }
 
+nav{
+  align-self: flex-end;
+}
 nav a {
     text-decoration: none;
     padding: 5px 10px;
@@ -55,7 +60,8 @@ nav a {
   .hero{
     height: 250px;
     width: 100%;
-    margin: auto;
     background-image: url("../images/02-hero-bg.jpg");
     background-size: cover;
   }
+
+  
