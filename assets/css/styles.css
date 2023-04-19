@@ -94,17 +94,34 @@ nav a {
     border-right: solid;
     border-color: var(--primary);
   }
-  p{ 
+  #About{ 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    float: right;
+    display:flex;
+    width: 76%;
+    padding-top: 50px;
     
   }
 
   #main{
     border: solid;
+    padding-top: 50px;
+    float: right;
     height: 200px;
     width: 78%;
-    
-  
 }
 
+ .work {
+  width: 36%;
+  border: solid;
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+
+ }
+
+ #cards {
+  border-right: solid;
+  padding-bottom: 200px;
+  
+ }
