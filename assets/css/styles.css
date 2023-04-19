@@ -104,13 +104,14 @@ nav a {
 
   #main{
     border: solid;
-    padding-top: 50px;
+    margin-top: 90px;
     float: right;
     height: 200px;
     width: 78%;
 }
 
  .work {
+  height: 100px;
   width: 36%;
   border: solid;
   float: right;
@@ -122,6 +123,11 @@ nav a {
 
  #cards {
   border-right: solid;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
   
+ }
+
+ #contact {
+  display: inline-flex;
+  margin: 80px;
  }
