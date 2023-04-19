@@ -104,6 +104,7 @@ nav a {
 
   #main{
     border: solid;
+    border-color: var(--secondary);
     margin-top: 90px;
     float: right;
     height: 200px;
@@ -111,9 +112,10 @@ nav a {
 }
 
  .work {
-  height: 100px;
+  height: 150px;
   width: 36%;
   border: solid;
+  border-color: var(--secondary);
   float: right;
   display: flex;
   justify-content: space-around;
@@ -123,11 +125,32 @@ nav a {
 
  #cards {
   border-right: solid;
-  padding-bottom: 400px;
+  padding-bottom: 500px;
   
  }
 
  #contact {
+  font-size: large;
   display: inline-flex;
   margin: 80px;
+  border-bottom: solid;
+  border-bottom-width: 5px;
+ }
+
+ #cardMain {
+  position: relative;
+  top: 130px;
+  right: 0;
+ }
+
+ .cardTitle {
+  font-weight: bolder;
+  font-size: 25px;
+  padding-left: 10px;
+  height: 30%;
+  display: inline;
+  position: relative;
+  top: 45px;
+  right: 170px;
+  background-color: var(--secondary);
  }
