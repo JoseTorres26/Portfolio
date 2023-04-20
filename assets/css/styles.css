@@ -109,6 +109,8 @@ nav a {
     float: right;
     height: 200px;
     width: 78%;
+    background-image: url(../images/yeti-games-screenshot.jpg);
+    background-size: cover;
 }
 
  .work {
@@ -151,6 +153,35 @@ nav a {
   display: inline;
   position: relative;
   top: 45px;
-  right: 170px;
+  right: 245px;
   background-color: var(--secondary);
+ }
+
+ #card1 {
+  background-image: url(../images/02-portfolio-1.jpg);
+  background-size: cover;
+ }
+
+ 
+ #card2 {
+  background-image: url(../images/02-portfolio-2.jpg);
+  background-size: cover;
+ }
+
+ 
+ #card3 {
+  background-image: url(../images/02-portfolio-3.jpg);
+  background-size: cover;
+ }
+
+ 
+ #card4 {
+  background-image: url(../images/02-run-buddy.jpg);
+  background-size: cover;
+ }
+
+ section div:hover {
+  background: var(--light);
+  opacity: 50%;
+
  }
