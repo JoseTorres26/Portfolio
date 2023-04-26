@@ -81,11 +81,6 @@ nav a {
     border-right: 2px var(--primary);
     
   }
-
-  section{
-    margin: 0;
-  }
-
   
   h3{
     margin-right: 0%;
@@ -95,6 +90,13 @@ nav a {
     width: 80%;
     text-align: right;
   }
+
+  #cards {
+    border-right: solid;
+    padding-bottom: 500px;
+    
+   }
+
   #About{ 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display:flex;
@@ -122,20 +124,6 @@ nav a {
   float: right;
   margin: 25px;
 
- }
-
- #cards {
-  border-right: solid;
-  padding-bottom: 500px;
-  
- }
-
- #contact {
-  font-size: large;
-  display: inline-flex;
-  margin: 80px;
-  border-bottom: solid;
-  border-bottom-width: 5px;
  }
 
  #cardMain {
@@ -182,6 +170,14 @@ nav a {
   background: var(--light);
   opacity: 50%;
 
+ }
+ 
+ #contact {
+  font-size: large;
+  display: inline-flex;
+  margin: 80px;
+  border-bottom: solid;
+  border-bottom-width: 5px;
  }
 
 @media  screen and (max-width: 1024px) {
